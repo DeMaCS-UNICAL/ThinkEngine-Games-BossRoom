@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2112908316042119988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4628786003876281968}
+  - component: {fileID: 8729797620678652127}
+  - component: {fileID: 8041201537515852016}
+  - component: {fileID: 6832319718503751239}
+  m_Layer: 0
+  m_Name: Info_object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4628786003876281968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112908316042119988}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8729797620678652127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112908316042119988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b8c13747457a747bb3083facdc9bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlayerAvatars: {fileID: 11400000, guid: 13c227b8a2f5f5f4a8c252835aaf648f, type: 2}
+  m_name: 
+  m_id: 0
+  my_health: 0
+  current_action: 0
+  free_attack: 1
+  ho_un_target: 0
+  tipo: 0
+  friends: []
+  friends_id: 
+  friends_is_alive: 
+  friends_health: 
+  pos: []
+  target: {fileID: 0}
+--- !u!114 &8041201537515852016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112908316042119988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1612528518, guid: 06783fc4099d1e04ba318698c43e592c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _savedProperties:
+  - myStrings:
+    - Info
+    - m_name
+    Count: 2
+  - myStrings:
+    - Info
+    - m_id
+    Count: 2
+  - myStrings:
+    - Info
+    - current_action
+    Count: 2
+  - myStrings:
+    - Info
+    Count: 1
+  - myStrings:
+    - Info
+    - my_target
+    Count: 2
+  - myStrings:
+    - Info
+    - ho_un_target
+    Count: 2
+  - myStrings:
+    - Info
+    - friends_is_alive
+    Count: 2
+  - myStrings:
+    - Info
+    - friends_health
+    Count: 2
+  - myStrings:
+    - Info
+    - friends_id
+    Count: 2
+  - myStrings:
+    - Info
+    - my_health
+    Count: 2
+  - myStrings:
+    - Info
+    - tipo
+    Count: 2
+  _toMapProperties:
+  - myStrings:
+    - Info
+    - m_name
+    Count: 2
+  - myStrings:
+    - Info
+    - m_id
+    Count: 2
+  - myStrings:
+    - Info
+    - current_action
+    Count: 2
+  - myStrings:
+    - Info
+    - ho_un_target
+    Count: 2
+  - myStrings:
+    - Info
+    - friends_is_alive
+    Count: 2
+  - myStrings:
+    - Info
+    - friends_health
+    Count: 2
+  - myStrings:
+    - Info
+    - friends_id
+    Count: 2
+  - myStrings:
+    - Info
+    - my_health
+    Count: 2
+  - myStrings:
+    - Info
+    - tipo
+    Count: 2
+  _propertyFeatures:
+  - property:
+      myStrings:
+      - Info
+      - m_name
+      Count: 2
+    windowWidth: 1
+    configurationName: info
+    _propertyAlias: info_m_name
+    propertyAliasHash: 1250742464
+    operation: 0
+    specificValue: 
+    counter: 0
+  - property:
+      myStrings:
+      - Info
+      - m_id
+      Count: 2
+    windowWidth: 1
+    configurationName: info
+    _propertyAlias: info_m_id
+    propertyAliasHash: -1436530994
+    operation: 0
+    specificValue: 
+    counter: 0
+  - property:
+      myStrings:
+      - Info
+      - current_action
+      Count: 2
+    windowWidth: 1
+    configurationName: info
+    _propertyAlias: info_current_action
+    propertyAliasHash: 2024239485
+    operation: 0
+    specificValue: 
+    counter: 0
+  - property:
+      myStrings:
+      - Info
+      - ho_un_target
+      Count: 2
+    windowWidth: 1
+    configurationName: 
+    _propertyAlias: target_selected
+    propertyAliasHash: -1568692465
+    operation: 0
+    specificValue: 
+    counter: 0
+  - property:
+      myStrings:
+      - Info
+      - friends_is_alive
+      Count: 2
+    windowWidth: 1
+    configurationName: info
+    _propertyAlias: info_Info_friends_is_alive
+    propertyAliasHash: -989118264
+    operation: 0
+    specificValue: 
+    counter: 0
+  - property:
+      myStrings:
+      - Info
+      - friends_health
+      Count: 2
+    windowWidth: 1
+    configurationName: info
+    _propertyAlias: info_Info_friends_health
+    propertyAliasHash: 1384978296
+    operation: 0
+    specificValue: 
+    counter: 0
+  - property:
+      myStrings:
+      - Info
+      - friends_id
+      Count: 2
+    windowWidth: 1
+    configurationName: info
+    _propertyAlias: info_Info_friends_id
+    propertyAliasHash: 1611323707
+    operation: 0
+    specificValue: 
+    counter: 0
+  - property:
+      myStrings:
+      - Info
+      - my_health
+      Count: 2
+    windowWidth: 1
+    configurationName: info
+    _propertyAlias: info_Info_my_health
+    propertyAliasHash: -887916297
+    operation: 0
+    specificValue: 
+    counter: 0
+  - property:
+      myStrings:
+      - Info
+      - tipo
+      Count: 2
+    windowWidth: 1
+    configurationName: info
+    _propertyAlias: info_tipo
+    propertyAliasHash: -1375920365
+    operation: 0
+    specificValue: 
+    counter: 0
+  _configurationName: info
+  isInvariant: 0
+  isFixedSize: 0
+  _serializableSensorsTypes:
+  - typeName: ThinkEngine.info_m_name, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - typeName: ThinkEngine.info_m_id, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - typeName: ThinkEngine.info_current_action, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - typeName: ThinkEngine.target_selected, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - typeName: ThinkEngine.info_Info_friends_is_alive0, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - typeName: ThinkEngine.info_Info_friends_health, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - typeName: ThinkEngine.info_Info_friends_id, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - typeName: ThinkEngine.info_Info_my_health, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  recompile: 1
+  teRecompile: 0
+  generatedScripts:
+  - info_m_name.cs
+  - info_m_id.cs
+  - info_current_action.cs
+  - target_selected.cs
+  - info_Info_friends_is_alive.cs
+  - info_Info_friends_health.cs
+  - info_Info_friends_id.cs
+  - info_Info_my_health.cs
+  - info_tipo.cs
+--- !u!114 &6832319718503751239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112908316042119988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 4065818742
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
